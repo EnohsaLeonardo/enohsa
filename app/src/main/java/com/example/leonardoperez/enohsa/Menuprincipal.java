@@ -35,10 +35,17 @@ public class Menuprincipal extends ActionBarActivity {
         return true;
     }
 
-    public void Descarga_Admin(View view) {
+   /* public void Descarga_Admin(View view) {
         Intent Descarga_Uno = new Intent(this, FileDownloaderAdmin.class);
         startActivity(Descarga_Uno);
+}
+   */
+    public void Menu_Usuario_Uno (View view) {
+        Intent Menu_Ususario_Uno = new Intent(this, Menu_Usuario_Uno.class);
+    startActivity(Menu_Ususario_Uno);
+
     }
+
 
     public void Descarga_Uno(View view) {
         Intent Descarga_Uno = new Intent(this, FileDownloader1.class);
