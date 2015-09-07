@@ -1,6 +1,37 @@
 <resources>
-    <string name="app_name">enohsa</string>
+    <string name="app_name">v32v7</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_login">loginActivity</string>
+    <string name="title_activity_menuprincipal">Menuprincipal</string>
+    <string name="E.N.O.H.S.A.">enohsa</string>
+    <string name="title_activity_menu__usuario">Menu_Usuario</string>
+    <string name="title_activity_download_file_demo1">DownloadFileDemo1</string>
+    <string name="title_activity_file_downloader1">FileDownloader1</string>
+    <string name="title_activity_view">view</string>
+    <string name="title_activity_menu__usuario_admin">Menu_Usuario_admin</string>
+    <string name="title_activity_menu__usuario__uno">Menu_Usuario_Uno</string>
+    <string name="title_activity_menu__usuario_dos">Menu_Usuario_dos</string>
+    <string name="title_activity_menu__usuario_tres">Menu_Usuario_tres</string>
+    <string name="title_activity_menu__usuario__cuatro">Menu_Usuario_Cuatro</string>
+    <string name="title_activity_file_downloader2">FileDownloader2</string>
+    <string name="title_activity_file_downloader3">FileDownloader3</string>
+    <string name="title_activity_file_downloader4">FileDownloader4</string>
+    <string name="title_activity_fda2">FDA2</string>
+    <string name="title_activity_fda3">FDA3</string>
+    <string name="title_activity_fda4">FDA4</string>
+    <string name="title_activity_fda1">FDA1</string>
+    <string name="title_activity_videoview">videoview</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="title_activity_open_gles20">OpenGLES20Activity</string>
+    <string name="title_activity_my_glrenderer">MyGLRenderer</string>
+    <string name="title_activity_my_glsurface_view">MyGLSurfaceView</string>
+    <string name="title_activity_loginphp">loginphp</string>
+    <string name="title_activity_sprite">sprite</string>
+    <string name="title_activity_menu__principal__uno">Menu_Principal_Uno</string>
+    <string name="title_activity_menu_principal_dos">menu_principal_dos</string>
+    <string name="title_activity_menu_principal_tres">menu_principal_tres</string>
+    <string name="title_activity_menu_principal_cuatro">menu_principal_cuatro</string>
+
 </resources>
