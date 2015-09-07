@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="10dip">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignRight="@+id/lblUsername"
+        android:layout_alignEnd="@+id/lblUsername"
+        android:layout_alignBottom="@+id/txtUsername"
+        android:layout_below="@+id/lblUsername"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+
+        android:id="@+id/lblUsername"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp" android:text="Username:"
+
+        android:textStyle="bold"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+
+        android:id="@+id/txtUsername"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="12sp"
+
+        android:layout_below="@+id/lblUsername"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+
+        android:id="@+id/lblPassword"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="20sp" android:text="Password:"
+
+        android:textStyle="bold"
+
+
+        android:layout_below="@+id/txtUsername"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+
+        android:id="@+id/txtPassword"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="12sp"
+
+        android:password="true"
+
+
+        android:layout_below="@+id/lblPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+
+        android:id="@+id/btnLogin"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Login"
+
+
+        android:layout_below="@+id/txtPassword"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

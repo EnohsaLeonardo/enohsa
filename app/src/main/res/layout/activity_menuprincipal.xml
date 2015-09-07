@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.leonardoperez.v3.Menuprincipal"
+    android:background="@drawable/mountain"
+    android:id="@+id/enohsa"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ellas haceno"
+        android:id="@+id/BT_Descarga_Uno"
+        android:onClick="Menu_principal_Usuario1"
+        android:drawableLeft="@mipmap/gota2"
+        android:drawableRight="@mipmap/gota2"
+        android:layout_alignWithParentIfMissing="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_above="@+id/BT_Descarga_Dos"
+        android:background="#ffffffff"
+        android:layout_alignParentBottom="false"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descarga Dos"
+        android:id="@+id/BT_Descarga_Dos"
+        android:drawableLeft="@mipmap/gota2"
+        android:drawableRight="@mipmap/gota2"
+        android:background="#ffffffff"
+        android:onClick="Descarga_Dos"
+        android:layout_above="@+id/BT_Descarga_Tres"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignLeft="@+id/BT_Descarga_Tres"
+        android:layout_alignStart="@+id/BT_Descarga_Tres"
+        android:layout_alignRight="@+id/BT_Descarga_Tres"
+        android:layout_alignEnd="@+id/BT_Descarga_Tres" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descarga Tres"
+        android:id="@+id/BT_Descarga_Tres"
+        android:drawableLeft="@mipmap/gota2"
+        android:drawableRight="@mipmap/gota2"
+        android:background="#ffffffff"
+        android:onClick="Descarga_Tres"
+        android:layout_above="@+id/BT_Descarga_Cuatro"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignLeft="@+id/BT_Descarga_Cuatro"
+        android:layout_alignStart="@+id/BT_Descarga_Cuatro"
+        android:layout_alignRight="@+id/BT_Descarga_Cuatro"
+        android:layout_alignEnd="@+id/BT_Descarga_Cuatro" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descarga Cuatro"
+        android:id="@+id/BT_Descarga_Cuatro"
+        android:drawableLeft="@mipmap/gota2"
+        android:drawableRight="@mipmap/gota2"
+        android:background="#ffffffff"
+        android:onClick="Descarga_Cuatro"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/BT_Descarga_Uno"
+        android:id="@+id/linearLayout">
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/BT_Descarga_Uno"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:focusableInTouchMode="false" />
+    </LinearLayout><![CDATA[
+
+
+
+        -->
+
+]]>
+</RelativeLayout>
