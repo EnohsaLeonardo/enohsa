@@ -15,6 +15,7 @@ public class Menu_Usuario_dos extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu__usuario_dos);
     }
+
     public void Descarga_FDA2 (View view) {
         Intent Descarga_FDA2 = new Intent(this, FDA2.class);
         startActivity(Descarga_FDA2); }
