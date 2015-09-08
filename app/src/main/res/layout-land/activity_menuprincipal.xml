@@ -19,16 +19,14 @@
         android:drawableRight="@mipmap/gota2"
         android:layout_alignWithParentIfMissing="false"
         android:gravity="center_vertical|center_horizontal"
-        android:layout_above="@+id/BT_Descarga_Dos"
         android:background="#ffffffff"
-        android:layout_alignParentBottom="false"
 
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/linearLayout"
-        android:layout_alignEnd="@+id/linearLayout" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -45,7 +43,8 @@
         android:layout_alignLeft="@+id/BT_Descarga_Tres"
         android:layout_alignStart="@+id/BT_Descarga_Tres"
         android:layout_alignRight="@+id/BT_Descarga_Tres"
-        android:layout_alignEnd="@+id/BT_Descarga_Tres" />
+        android:layout_alignEnd="@+id/BT_Descarga_Tres"
+        android:visibility="invisible" />
 
     <Button
         android:layout_width="wrap_content"
@@ -62,7 +61,8 @@
         android:layout_alignLeft="@+id/BT_Descarga_Cuatro"
         android:layout_alignStart="@+id/BT_Descarga_Cuatro"
         android:layout_alignRight="@+id/BT_Descarga_Cuatro"
-        android:layout_alignEnd="@+id/BT_Descarga_Cuatro" />
+        android:layout_alignEnd="@+id/BT_Descarga_Cuatro"
+        android:visibility="invisible" />
 
     <Button
         android:layout_width="wrap_content"
@@ -79,7 +79,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/linearLayout"
-        android:layout_alignEnd="@+id/linearLayout" />
+        android:layout_alignEnd="@+id/linearLayout"
+        android:visibility="invisible" />
 
     <LinearLayout
         android:orientation="horizontal"
