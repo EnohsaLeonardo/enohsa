@@ -105,11 +105,5 @@
             android:layout_centerInParent="true"
             android:visibility="invisible"
             android:focusableInTouchMode="false" />
-    </LinearLayout><![CDATA[
-
-
-
-        -->
-
-]]>
+    </LinearLayout>
 </RelativeLayout>
