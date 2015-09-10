@@ -25,4 +25,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.0'
     compile group: 'org.apache.httpcomponents' , name: 'httpclient-android' , version: '4.3.5.1'
     compile files('libs/org.apache.http.legacy.jar')
-}
+    compile "com.androidplot:androidplot-core:0.6.1"
+    }
+
