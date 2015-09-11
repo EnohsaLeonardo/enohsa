@@ -7,8 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.MediaController;
+import android.widget.Toast;
 import android.widget.VideoView;
-
 
 public class Menuprincipal extends ActionBarActivity {
 
@@ -26,6 +26,26 @@ public class Menuprincipal extends ActionBarActivity {
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
         videoView.start();
+
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.faceEH:
+                Toast.makeText(getApplicationContext(), "Facebook Ellas Hacen menu item pressed", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.face:
+                Toast.makeText(getApplicationContext(), "Facebook menu item pressed", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.twiter:
+                Toast.makeText(getApplicationContext(), "twiter menu item pressed", Toast.LENGTH_SHORT).show();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
 

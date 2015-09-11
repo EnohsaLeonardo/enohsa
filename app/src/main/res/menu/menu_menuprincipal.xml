@@ -4,4 +4,23 @@
     tools:context="com.example.leonardoperez.v3.Menuprincipal">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+
+
+
+
+    <item android:id="@+id/faceEH"
+    android:icon="@drawable/logofaceeh"
+    android:title="About"
+    app:showAsAction="always"/>
+
+    <item android:id="@+id/face"
+    android:icon="@drawable/logofacebook"
+    android:title="Facebook"
+    app:showAsAction="always"/>
+
+    <item android:id="@+id/twiter"
+        android:icon="@drawable/logotw"
+        android:title="Twiter"
+        app:showAsAction="always"/>
+
 </menu>
