@@ -219,10 +219,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.leonardoperez.v3.loginActivity" />
         </activity>
-        <activity
-            android:name=".camara"
-            android:label="@string/title_activity_camara" >
-        </activity>
     </application>
 
 </manifest>
