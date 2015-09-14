@@ -32,7 +32,8 @@ public class Loginphp1 extends Activity implements OnClickListener {
     // private static final String LOGIN_URL = "http://xxx.xxx.x.x:1234/webservice/login.php";
 
     //testing on Emulator:
-    private static final String LOGIN_URL = "http://www.enohsa.gob.ar/mascerca.php";
+  //  private static final String LOGIN_URL = "http://www.enohsa.gob.ar/mascerca.php";
+    private static final String LOGIN_URL = "http://127.0.0.1/php/pear/Auth/SASL/\nLogin.php";
 
     //testing from a real server:
     //private static final String LOGIN_URL = "http://www.yourdomain.com/webservice/login.php";
