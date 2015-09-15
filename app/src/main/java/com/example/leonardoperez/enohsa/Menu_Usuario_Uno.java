@@ -6,8 +6,6 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.MediaController;
-import android.widget.VideoView;
 
 
 public class Menu_Usuario_Uno extends ActionBarActivity {
@@ -16,7 +14,7 @@ public class Menu_Usuario_Uno extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu__usuario__uno);
-        final VideoView videoView =
+       /* final VideoView videoView =
                 (VideoView) findViewById(R.id.webView);
         videoView.setVideoPath(
                 "http://www.ebookfrenzy.com/android_book/movie.mp4");
@@ -25,7 +23,7 @@ public class Menu_Usuario_Uno extends ActionBarActivity {
                 MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
-        videoView.start();
+        videoView.start();*/
     }
     public void Descarga_FDA1 (View view) {
         Intent Descarga_FDA1 = new Intent(this, FDA1.class);

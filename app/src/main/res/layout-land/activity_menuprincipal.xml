@@ -58,7 +58,9 @@
         android:onClick="Descarga_Cuatro"
         android:visibility="visible"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
 
 
     <VideoView
@@ -89,6 +91,8 @@
         android:layout_alignLeft="@+id/BT_Descarga_Dos"
         android:layout_alignStart="@+id/BT_Descarga_Dos"
         android:layout_alignRight="@+id/BT_Descarga_Dos"
-        android:layout_alignEnd="@+id/BT_Descarga_Dos" />
+        android:layout_alignEnd="@+id/BT_Descarga_Dos"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
 
 </RelativeLayout>
