@@ -3,6 +3,7 @@ package com.example.leonardoperez.enohsa;
 /**
  * Created by Leonardo.Perez on 31/07/2015.
  */
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,6 +16,7 @@ public class Splash extends Activity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
+
 
         Thread timerThread = new Thread(){
             public void run(){
@@ -32,6 +34,7 @@ public class Splash extends Activity {
         };
         timerThread.start();
     }
+
 
     @Override
     protected void onPause() {

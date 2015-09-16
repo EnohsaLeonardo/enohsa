@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:background="@drawable/splash"
-    android:id="@+id/enohsa">
+    android:id="@+id/enohsa"
+    >
 
 
     <ViewAnimator
