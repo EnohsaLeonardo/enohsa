@@ -1,6 +1,7 @@
 package com.example.leonardoperez.enohsa;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -35,12 +36,22 @@ public class Menuprincipal extends ActionBarActivity {
         switch (id) {
             case R.id.faceEH:
                 Toast.makeText(getApplicationContext(), "Facebook Ellas Hacen menu item pressed", Toast.LENGTH_SHORT).show();
+                Intent intentface = new Intent (Intent.ACTION_VIEW);
+                intentface.setData(Uri.parse("https://www.facebook.com/Comunidad-plomeras-1496461803957365/timeline/"));
+                startActivity(intentface) ;
                 break;
             case R.id.face:
                 Toast.makeText(getApplicationContext(), "Facebook menu item pressed", Toast.LENGTH_SHORT).show();
+                Intent intentface1 = new Intent (Intent.ACTION_VIEW);
+                intentface1.setData(Uri.parse("https://www.facebook.com/EnohsaGob/"));
+                startActivity(intentface1) ;
+
                 break;
             case R.id.twiter:
                 Toast.makeText(getApplicationContext(), "twiter menu item pressed", Toast.LENGTH_SHORT).show();
+                Intent intenttw = new Intent (Intent.ACTION_VIEW);
+                intenttw.setData(Uri.parse("https://twitter.com/Enohsa"));
+                startActivity(intenttw) ;
                 break;
         }
         return super.onOptionsItemSelected(item);
