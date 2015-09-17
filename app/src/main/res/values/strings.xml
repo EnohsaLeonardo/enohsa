@@ -34,5 +34,6 @@
     <string name="title_activity_menu_principal_tres">menu_principal_tres</string>
     <string name="title_activity_menu_principal_cuatro">menu_principal_cuatro</string>
     <string name="title_activity_camara">camara</string>
+    <string name="title_activity_menudelusuariouno">menudelusuariouno</string>
 
 </resources>

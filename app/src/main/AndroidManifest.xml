@@ -219,6 +219,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.leonardoperez.v3.loginActivity" />
         </activity>
+        <activity
+            android:name=".menudelusuariouno"
+            android:label="@string/title_activity_menudelusuariouno"
+            android:parentActivityName=".loginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.leonardoperez.enohsa.loginActivity" />
+        </activity>
     </application>
 
 </manifest>

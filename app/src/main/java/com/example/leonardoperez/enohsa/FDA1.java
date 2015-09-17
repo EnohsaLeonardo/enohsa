@@ -75,7 +75,7 @@ public class FDA1 extends Activity {
                         + " KB\n\nDownloading PDF " + (int) per
                         + "% complete");}
             fileOutput.close();
-            setText("Descarga completa. Se iniciara el visor PDF.");
+            setText("Descarga finalizada. Se iniciara el visor PDF.");
             sleep(3000);
         } catch (final MalformedURLException e) {
             setTextError("Some error occured. Press back and try again.",
