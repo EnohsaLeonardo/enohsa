@@ -96,6 +96,10 @@ public class Menuprincipal extends ActionBarActivity {
         startActivity(Descarga_Uno);
     }
 
+    public void tractor1111(View view) {
+        Intent tractor_lalala = new Intent(this, tractor.class);
+        startActivity(tractor_lalala);
+    }
     public class VideoPlayerActivity extends ActionBarActivity {
 
 
