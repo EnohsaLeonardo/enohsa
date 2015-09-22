@@ -45,7 +45,6 @@ public class Menuprincipal extends ActionBarActivity {
                 Intent intentface1 = new Intent (Intent.ACTION_VIEW);
                 intentface1.setData(Uri.parse("https://www.facebook.com/EnohsaGob/"));
                 startActivity(intentface1) ;
-
                 break;
             case R.id.twiter:
                 Toast.makeText(getApplicationContext(), "twiter menu item pressed", Toast.LENGTH_SHORT).show();
@@ -54,9 +53,6 @@ public class Menuprincipal extends ActionBarActivity {
                 startActivity(intenttw) ;
                 break;
         }
-
-
-
         switch (item.getItemId()) {
             case R.id.item1:
                 Toast.makeText(this, "Option1", Toast.LENGTH_SHORT).show();
@@ -78,11 +74,8 @@ public class Menuprincipal extends ActionBarActivity {
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
-
     }
 }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
