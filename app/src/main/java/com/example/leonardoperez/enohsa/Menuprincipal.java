@@ -54,8 +54,34 @@ public class Menuprincipal extends ActionBarActivity {
                 startActivity(intenttw) ;
                 break;
         }
-        return super.onOptionsItemSelected(item);
+
+
+
+        switch (item.getItemId()) {
+            case R.id.item1:
+                Toast.makeText(this, "Option1", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.item2:
+                Toast.makeText(this, "Option2", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.item3:
+                Toast.makeText(this, "Option3", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.item4:
+                Toast.makeText(this, "Option4", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.item5:
+                Toast.makeText(this, "Option5", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.item6:
+                Toast.makeText(this, "Option6", Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+
     }
+}
+
 
 
     @Override

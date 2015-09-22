@@ -9,7 +9,7 @@
     tools:context="com.example.leonardoperez.v3.Menuprincipal"
     android:background="@drawable/mountain1"
     android:id="@+id/enohsa"
-    >
+>
 
     <Button
         android:layout_width="wrap_content"
