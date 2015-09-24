@@ -27,7 +27,7 @@
         android:layout_alignRight="@+id/BT_Descarga_Tres"
         android:layout_alignEnd="@+id/BT_Descarga_Tres"
         android:visibility="visible"
-        android:onClick="setListFooter" />
+        android:onClick="Menu_usu2" />
 
     <Button
         android:layout_width="wrap_content"
