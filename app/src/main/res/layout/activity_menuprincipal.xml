@@ -19,7 +19,6 @@
         android:drawableLeft="@mipmap/gota2"
         android:drawableRight="@mipmap/gota2"
         android:background="#ffffffff"
-        android:onClick="Descarga_Dos"
         android:layout_above="@+id/BT_Descarga_Tres"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
@@ -27,7 +26,8 @@
         android:layout_alignStart="@+id/BT_Descarga_Tres"
         android:layout_alignRight="@+id/BT_Descarga_Tres"
         android:layout_alignEnd="@+id/BT_Descarga_Tres"
-        android:visibility="visible" />
+        android:visibility="visible"
+        android:onClick="setListFooter" />
 
     <Button
         android:layout_width="wrap_content"
@@ -100,7 +100,7 @@
         android:id="@+id/buttonStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickStopVibrate"
+        android:onClick="stopVibrate1111"
         android:text="Stop"
         android:layout_below="@+id/buttonStartVibrate"
         android:layout_centerHorizontal="true" />
@@ -109,11 +109,11 @@
         android:id="@+id/buttonStartVibrate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="tractor1111"
+        android:onClick="startVibrate11111"
         android:text="Start "
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/buttonStop"
         android:layout_alignStart="@+id/buttonStop"
-        android:nestedScrollingEnabled="true" />
+        android:nestedScrollingEnabled="false" />
 
 </RelativeLayout>

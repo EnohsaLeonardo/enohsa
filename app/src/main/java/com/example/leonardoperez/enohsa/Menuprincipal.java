@@ -1,8 +1,10 @@
 package com.example.leonardoperez.enohsa;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,6 +14,7 @@ import android.widget.Toast;
 import android.widget.VideoView;
 
 public class Menuprincipal extends ActionBarActivity {
+    public Vibrator vibrator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,10 +94,11 @@ public class Menuprincipal extends ActionBarActivity {
     public void Menu_Usuario_Uno (View view) {
         Intent Menu_Ususario_Uno = new Intent(this, Menu_Usuario_Uno.class);
     startActivity(Menu_Ususario_Uno);
-
     }
-
-
+    public void Menu_usu2 (View view) {
+        Intent Menu_Usu_dos = new Intent(this, Menu_Usuario_dos.class);
+        startActivity(Menu_Usu_dos);
+    }
     public void Descarga_Uno(View view) {
         Intent Descarga_Uno = new Intent(this, FileDownloader1.class);
         startActivity(Descarga_Uno);
@@ -119,6 +123,16 @@ public class Menuprincipal extends ActionBarActivity {
         Intent tractor_lalala = new Intent(this, tractor.class);
         startActivity(tractor_lalala);
     }
+    public void startVibrate22222(View v) {
+        long pattern[] = { 0, 100, 200, 300, 400 };
+        vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator.vibrate(pattern, 0);
+    }
+
+    public void stopVibrate2222(View v) {
+        vibrator.cancel();
+    }
+
     public class VideoPlayerActivity extends ActionBarActivity {
 
 

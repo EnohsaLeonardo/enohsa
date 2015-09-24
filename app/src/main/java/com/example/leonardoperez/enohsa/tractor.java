@@ -13,18 +13,16 @@ public class tractor extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menuprincipal);
     }
 
-    public void onClickStartVibrate(View v) {
-
+    public void startVibrate11111(View v) {
         long pattern[] = { 0, 100, 200, 300, 400 };
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         vibrator.vibrate(pattern, 0);
     }
 
-    public void onClickStopVibrate(View v) {
+    public void stopVibrate1111(View v) {
         vibrator.cancel();
-    }
-
+}
 }

@@ -19,6 +19,9 @@ public class Menu_Usuario_dos extends ActionBarActivity {
     public void Descarga_FDA2 (View view) {
         Intent Descarga_FDA2 = new Intent(this, FDA2.class);
         startActivity(Descarga_FDA2); }
+    public void Descarga_menu_usuario_dos (View view) {
+        Intent Descarga_FDA2 = new Intent(this, Menu_Usuario_dos.class);
+        startActivity(Descarga_FDA2); }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_menu__usuario_dos, menu);
