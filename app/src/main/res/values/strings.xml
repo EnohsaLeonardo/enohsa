@@ -35,5 +35,8 @@
     <string name="title_activity_menu_principal_cuatro">menu_principal_cuatro</string>
     <string name="title_activity_camara">camara</string>
     <string name="title_activity_menudelusuariouno">menudelusuariouno</string>
+    <string name="title_activity_webview_main_activity_first">WebviewMainActivityFirst</string>
+    <string name="title_activity_web_view_activity_second">WebViewActivitySecond</string>
+    <string name="title_activity_lalalaweb">lalalaweb</string>
 
 </resources>

@@ -33,6 +33,8 @@ public class Menuprincipal extends ActionBarActivity {
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         vibrator.vibrate(100);
     }
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

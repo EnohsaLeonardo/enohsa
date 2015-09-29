@@ -14,7 +14,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Descarga Dos"
+        android:text="Usuario Dos"
         android:id="@+id/BT_Descarga_Dos"
         android:drawableLeft="@mipmap/gota2"
         android:drawableRight="@mipmap/gota2"
@@ -32,7 +32,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Descarga Tres"
+        android:text="Usuario Tres"
         android:id="@+id/BT_Descarga_Tres"
         android:drawableLeft="@mipmap/gota2"
         android:drawableRight="@mipmap/gota2"
@@ -50,7 +50,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Descarga Cuatro"
+        android:text="Usuario Cuatro"
         android:id="@+id/BT_Descarga_Cuatro"
         android:drawableLeft="@mipmap/gota2"
         android:drawableRight="@mipmap/gota2"
@@ -80,7 +80,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ellas hacen"
+        android:text="Usuario Uno - Ellas hacen"
         android:id="@+id/BT_Descarga_Uno"
         android:onClick="Menu_Usuario_Uno"
         android:drawableLeft="@mipmap/gota2"
