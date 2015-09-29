@@ -119,19 +119,21 @@ public class Menuprincipal extends ActionBarActivity {
         startActivity(Descarga_Uno);
     }
 
-    public void tractor1111(View view) {
+    public void tractormp(View view) {
         Intent tractor_lalala = new Intent(this, tractor.class);
         startActivity(tractor_lalala);
     }
     public void startVibrate22222(View v) {
         long pattern[] = { 0, 100, 200, 300, 400 };
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        vibrator.vibrate(pattern, 0);
+        vibrator.vibrate(pattern, -1);
     }
 
-    public void stopVibrate2222(View v) {
+    public void stopVibrate9999999(View v) {
         vibrator.cancel();
     }
+
+
 
     public class VideoPlayerActivity extends ActionBarActivity {
 

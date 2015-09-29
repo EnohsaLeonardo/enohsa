@@ -16,7 +16,7 @@ public class tractor extends Activity {
         setContentView(R.layout.activity_menuprincipal);
     }
 
-    public void startVibrate11111(View v) {
+    public void startVibratetractor(View v) {
         long pattern[] = { 0, 100, 200, 300, 400 };
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         vibrator.vibrate(pattern, 0);

@@ -100,7 +100,7 @@
         android:id="@+id/buttonStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="stopVibrate1111"
+        android:onClick="stopVibrate9999999"
         android:text="Stop"
         android:layout_below="@+id/buttonStartVibrate"
         android:layout_centerHorizontal="true" />
@@ -109,7 +109,7 @@
         android:id="@+id/buttonStartVibrate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="startVibrate11111"
+        android:onClick="startVibrate22222"
         android:text="Start "
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/buttonStop"
