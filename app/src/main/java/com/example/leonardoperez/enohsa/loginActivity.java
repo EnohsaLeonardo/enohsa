@@ -34,10 +34,10 @@ public class loginActivity extends Activity {
                     String u = txtUserName.getText().toString();
                     String p = txtPassword.getText().toString();
                     String a0="ad"; String p0="ad";
-                    String a1="a1"; String p1="a1";
-                    String a2="a2"; String p2="a2";
-                    String a3="a3"; String p3="a3";
-                    String a4="a4"; String p4="a4";
+                    String a1="a1"; String p1="a";
+                    String a2="a2"; String p2="a";
+                    String a3="a3"; String p3="a";
+                    String a4="a4"; String p4="a";
 
                     if ((username.length() > 0 && password.length() > 0) && (u.equals(a0) && (p.equals(p0)))){
                         Toast.makeText(getApplicationContext(), "Bienvenido " + username, Toast.LENGTH_SHORT).show();

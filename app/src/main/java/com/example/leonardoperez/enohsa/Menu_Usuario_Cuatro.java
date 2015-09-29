@@ -19,7 +19,7 @@ public class Menu_Usuario_Cuatro extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu__usuario__cuatro);
         //--------------------------------------------
-        String frameVideo = "<html><body>Video From YouTube<br><iframe width=\"420\" height=\"315\" src=\"https://www.youtube.com/embed/47yJ2XCRLZs\" frameborder=\"0\" allowfullscreen></iframe></body></html>";
+        String frameVideo = "<html><body>Video From YouTube<br><iframe width=\100%\" height=\"100%\" src=\"https://www.youtube.com/embed/S_r6iUmY384\" frameborder=\"0\" allowfullscreen></iframe></body></html>";
 
         WebView displayYoutubeVideo = (WebView) findViewById(R.id.mWebView);
         displayYoutubeVideo.setWebViewClient(new WebViewClient() {
