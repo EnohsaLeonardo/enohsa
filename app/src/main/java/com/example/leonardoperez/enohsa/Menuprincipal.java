@@ -30,7 +30,8 @@ public class Menuprincipal extends ActionBarActivity {
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
         videoView.start();
-
+        vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator.vibrate(100);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -38,42 +39,51 @@ public class Menuprincipal extends ActionBarActivity {
         int id = item.getItemId();
         switch (id) {
             case R.id.faceEH:
-                Toast.makeText(getApplicationContext(), "Facebook Ellas Hacen menu item pressed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Abriendo Facebook Ellas Hacen ", Toast.LENGTH_LONG).show();
                 Intent intentface = new Intent (Intent.ACTION_VIEW);
                 intentface.setData(Uri.parse("https://www.facebook.com/Comunidad-plomeras-1496461803957365/timeline/"));
                 startActivity(intentface) ;
+                vibrator.vibrate(100);
                 break;
             case R.id.face:
-                Toast.makeText(getApplicationContext(), "Facebook menu item pressed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Abriendo Facebook", Toast.LENGTH_LONG).show();
                 Intent intentface1 = new Intent (Intent.ACTION_VIEW);
                 intentface1.setData(Uri.parse("https://www.facebook.com/EnohsaGob/"));
                 startActivity(intentface1) ;
+                vibrator.vibrate(100);
                 break;
             case R.id.twiter:
-                Toast.makeText(getApplicationContext(), "twiter menu item pressed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Abirendo Twiter", Toast.LENGTH_LONG).show();
                 Intent intenttw = new Intent (Intent.ACTION_VIEW);
                 intenttw.setData(Uri.parse("https://twitter.com/Enohsa"));
                 startActivity(intenttw) ;
+                vibrator.vibrate(100);
                 break;
         }
         switch (item.getItemId()) {
             case R.id.item1:
                 Toast.makeText(this, "Option1", Toast.LENGTH_SHORT).show();
+                vibrator.vibrate(100);
                 return true;
             case R.id.item2:
                 Toast.makeText(this, "Option2", Toast.LENGTH_SHORT).show();
+                vibrator.vibrate(100);
                 return true;
             case R.id.item3:
                 Toast.makeText(this, "Option3", Toast.LENGTH_SHORT).show();
+                vibrator.vibrate(100);
                 return true;
             case R.id.item4:
                 Toast.makeText(this, "Option4", Toast.LENGTH_SHORT).show();
+                vibrator.vibrate(100);
                 return true;
             case R.id.item5:
                 Toast.makeText(this, "Option5", Toast.LENGTH_SHORT).show();
+                vibrator.vibrate(100);
                 return true;
             case R.id.item6:
                 Toast.makeText(this, "Option6", Toast.LENGTH_SHORT).show();
+                vibrator.vibrate(100);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -93,6 +103,8 @@ public class Menuprincipal extends ActionBarActivity {
    */
     public void Menu_Usuario_Uno (View view) {
         Intent Menu_Ususario_Uno = new Intent(this, Menu_Usuario_Uno.class);
+        vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator.vibrate(300);
     startActivity(Menu_Ususario_Uno);
     }
     public void Menu_usu2 (View view) {
@@ -126,8 +138,8 @@ public class Menuprincipal extends ActionBarActivity {
     public void startVibrate22222(View v) {
         long pattern[] = { 0, 100, 200, 300, 400 };
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        vibrator.vibrate(pattern, -1);
-    }
+        vibrator.vibrate(pattern, 0);
+          }
 
     public void stopVibrate9999999(View v) {
         vibrator.cancel();
