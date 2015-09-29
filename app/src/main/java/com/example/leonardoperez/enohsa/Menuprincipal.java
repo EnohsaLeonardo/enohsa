@@ -95,21 +95,22 @@ public class Menuprincipal extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_menuprincipal, menu);
         return true;
     }
-
-   /* public void Descarga_Admin(View view) {
-        Intent Descarga_Uno = new Intent(this, FileDownloaderAdmin.class);
-        startActivity(Descarga_Uno);
-}
-   */
     public void Menu_Usuario_Uno (View view) {
         Intent Menu_Ususario_Uno = new Intent(this, Menu_Usuario_Uno.class);
-        vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
         vibrator.vibrate(300);
     startActivity(Menu_Ususario_Uno);
     }
     public void Menu_usu2 (View view) {
         Intent Menu_Usu_dos = new Intent(this, Menu_Usuario_dos.class);
         startActivity(Menu_Usu_dos);
+    }
+    public void Menu_usu3 (View view) {
+        Intent Menu_Usu_tres = new Intent(this, Menu_Usuario_tres.class);
+        startActivity(Menu_Usu_tres);
+    }
+    public void Menu_usu4 (View view) {
+        Intent Menu_Usu_cuatro = new Intent(this, Menu_Usuario_Cuatro.class);
+        startActivity(Menu_Usu_cuatro);
     }
     public void Descarga_Uno(View view) {
         Intent Descarga_Uno = new Intent(this, FileDownloader1.class);
